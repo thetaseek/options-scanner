@@ -140,6 +140,12 @@ export function OptionsSelector({options, instruments}) {
       },
     },
     {
+      field: "openInterest",
+      filter: "agNumberColumnFilter",
+      headerName: "Open Interest",
+      type: "numericColumn",
+    },
+    {
       field: "markPrice",
       filter: "agNumberColumnFilter",
       headerName: "Mark Price",
